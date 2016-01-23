@@ -21,7 +21,6 @@ class Predictor
       ex_adds = ["a.b@c", "a.bb@c", "aa.b@c", "aa.bb@c"]
     else
       ex_adds = [template]
-      # ex_adds << template
     end
     
     email_guess = ex_adds.collect do |address|
